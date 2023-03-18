@@ -1,0 +1,61 @@
+title = "Title"
+
+[[collections]]
+label = "Items"
+width = 10
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 0
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 1
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 2
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 3
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 4
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 5
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 6
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 7
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 8
+items = ["One", "Two", "Three", "Four", "Five", "Six", "12345678901234567890", "A", "Be"]
+
+[[collections]]
+label = "Items"
+width = 10
+items = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"]
+
+[[collections]]
+label = "Items"
+width = 10
+items = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven"]
