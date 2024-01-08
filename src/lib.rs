@@ -1,6 +1,7 @@
 use crate::{config::Config, library::format::Row};
 use rand::prelude::*;
 use std::error::Error;
+use std::io::{stdin, stdout, Write};
 
 mod config;
 mod library;
@@ -16,6 +17,8 @@ pub fn main() -> Result<(), Box<dyn Error>> {
 
     print_labels(&config);
     print_items(&config);
+
+    wait_for_user();
 
     Ok(())
 }
@@ -45,4 +48,10 @@ fn print_items(config: &Config) {
         });
         println!("{}", library::format::row(items));
     }
+}
+
+fn wait_for_user() {
+    print!("\nPress <enter> to exit: ");
+    stdout().flush().expect("Error writing output.");
+    stdin().read_line(&mut String::new()).expect("Error reading input.");
 }
