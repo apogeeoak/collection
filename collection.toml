@@ -1,4 +1,5 @@
 title = "Title"
+output_file = "local/collection-output.md"
 
 [[collections]]
 label = "Items"
